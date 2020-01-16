@@ -1,1 +1,15 @@
-hfgkhvj
+方法一 ： 通过命令直接修改远程仓库地址
+1.git remote 查看所有远程仓库
+2.git remote xxx 查看指定远程仓库地址
+3.git remote set-url origin 你新的远程仓库地址
+
+方法二： 先删除在添加你的远程仓库
+
+1.git remote rm origin
+2.git remote add origin 你的新远程仓库地址
+
+方法三： 直接修改你本地的.git文件
+
+config文件中url地址
+
+
